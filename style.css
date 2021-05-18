@@ -1,0 +1,97 @@
+html{height:100%;}
+body{
+height:100%;
+background:linear-gradient(45deg,gray,#181818);}
+*{margin:0;padding:0;font-weight:600;
+border-collapse: collapse;
+/*border:1px solid red; */}
+
+#container{
+border:3px solid black;
+border-radius:7px;
+position: absolute;
+left:50%;
+margin-top:50vh;
+transform: translate(-50%,-50%);}
+
+#input{
+text-align:center;
+width:184.5px;
+font-size:20px;
+height:30px;
+outline: 0;
+border:2.5px solid;
+border-right:none;}
+
+#start{
+text-align:center;
+height:30px;
+width:44px;
+border:2.3px solid;
+border-left:none;
+
+background:#000000;}
+
+#button{
+margin-top:6px;
+color:white;
+display: block;
+transition:0.2s;}
+
+#start:active 
+#button{transform:scale(0.8);color:gray;}
+
+#timer{
+transition:0.2s;
+background:
+#65ff00;
+height:24px;
+width:228.5px;
+border:2.5px solid;
+border-top:none;}
+
+#infoContainer{
+font-size:20px;
+border-collapse:separate;
+padding-left:3px;
+padding-right:3px;
+text-align: center;
+border:2.5px solid;
+border-top:none;
+height:30px;
+width:233.5px;
+background:white;}
+
+#t1{width:50%;}
+#t2{width:50%;background:red;}
+
+#clock{
+text-align:center;
+font-size:35px;
+height:40px;
+background:white;
+width:228.5px;
+border:2.5px solid;
+border-top:none;}
+
+#additional{
+border:2.5px solid;
+border-top:none;
+font-size:20px;
+height:30px;
+text-align: center;	
+width:100%;
+background:white;}
+
+#sett{
+color: black;
+background: blue;}
+
+#settSpan,#stopText{display:block;
+transition:0.2s}
+
+#t2:active #stopText{
+transform:scale(0.8);}
+
+#sett:active #settSpan{
+transform:scale(0.8);}
